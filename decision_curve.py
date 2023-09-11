@@ -2,6 +2,8 @@
   Decision curve analysis
   https://en.wikipedia.org/wiki/Decision_curve_analysis
 '''
+from sklearn import metrics
+import matplotlib.pyplot as plt
 import numpy as np
 
 def plot_decision_curve(y_test, y_pred, feature_names):
